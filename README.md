@@ -27,6 +27,3 @@ This project predicts whether passengers survived the Titanic disaster using mac
 1. Clone the repo: `git clone https://github.com/yourusername/NeuroNexus`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Open `notebooks/titanic_survival_prediction.ipynb` in Jupyter.
-
-## LinkedIn Post
-[To be added after posting]
