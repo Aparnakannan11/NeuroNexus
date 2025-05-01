@@ -18,6 +18,11 @@ This project predicts whether passengers survived the Titanic disaster using mac
 - Random Forest: ~80% accuracy, ~0.75 F1-score for `Survived=1`.
 - Key predictors: Sex, Pclass, Title.
 
+## Streamlit Web App
+- **URL**: https://neuronexus-titanic-survival-prediction.streamlit.app/
+- Interactive app to input passenger details, predict survival using the Random Forest model, view EDA plots, and display sample predictions.
+- **Run Locally**: `streamlit run app.py`
+
 ## How to Run
 1. Clone the repo: `git clone https://github.com/yourusername/NeuroNexus`
 2. Install dependencies: `pip install -r requirements.txt`
