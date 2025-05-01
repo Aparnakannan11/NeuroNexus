@@ -37,10 +37,12 @@ embarked_q = 1 if embarked == "Q" else 0
 embarked_s = 1 if embarked == "S" else 0
 family_size = sibsp + parch + 1
 
-title_miss = 1 if sex == "female" else 0
-title_mr = 1 if sex == "male" else 0
-title_mrs = 0
-title_rare = 0
+title = st.sidebar.selectbox("Title", ["Mr", "Miss", "Mrs", "Rare"], index=0)
+
+title_miss = 1 if title == "Miss" else 0
+title_mr = 1 if title == "Mr" else 0
+title_mrs = 1 if title == "Mrs" else 0
+title_rare = 1 if title == "Rare" else 0
 
 input_data = pd.DataFrame({
     'Pclass': [pclass],
